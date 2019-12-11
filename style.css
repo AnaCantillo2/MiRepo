@@ -39,3 +39,30 @@ img{width: 280px;
 img:hover{
     width: 280px;
 }
+
+.texto{
+    display: block;
+}
+
+.cuadro1{
+    width: 10%;
+    height: 10%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgb(114, 154, 228);
+    margin: 5%;
+
+    position: static;
+
+}
+
+.cuadro2{
+    width: 10%;
+    height: 10%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgb(155, 121, 248);
+    margin: 5%;
+
+    position: relative;
+}
