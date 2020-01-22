@@ -15,10 +15,6 @@ body{
     background-color: rgb(157, 114, 168);
 }
 
-#miSuperTitulo{
-    font-size: 50px;
-}
-
 .imagenesIntro{
     width: 280px;
     display: block;
@@ -65,4 +61,12 @@ img:hover{
     margin: 5%;
 
     position: relative;
+
+}
+
+#miSuperTitulo{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.2);
+
 }
