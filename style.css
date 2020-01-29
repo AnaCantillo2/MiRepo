@@ -64,6 +64,29 @@ img:hover{
 
 }
 
+iframe{
+    display: block;
+    margin: 2% auto;
+}
+
+.imagenesIntro{
+    animation-name: miAnimación;
+    animation-duration: 2800ms;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes miAnimación{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(70deg);
+    }
+}
+
 #miSuperTitulo{
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
